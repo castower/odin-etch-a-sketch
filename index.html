@@ -8,7 +8,19 @@
 </head>
 <body>
     <h1>Etch A Sketch Game</h1>
+    <h3>Instructions: Hover over squares to draw, click to undo. Drag slider to update grid size.</h3>
+    <button class="clear-button">Clear drawing</button>
+    <div class="slide-container">
+        <input type="range" min="16" max="100" value="16" class="slider" id="myRange">
+        <p class="slide-text">Grid Size: <span id="demo"></span></p>
+      </div>
     <div class="game-container"></div>
+    <div class="footer"> 
+        <hr>
+        <div class="footer_text">Copyright &copy; Courtney Stowers as part of The Odin Project 2021-2024.
+            <a href="https://github.com/castower/odin-etch-a-sketch/" class="fa icon" target="_blank" rel="noopener noreferrer">&#xf09b; </a>
+        </div>
+    </div>
     <script src="./javascript.js"></script>
 </body>
 </html>
