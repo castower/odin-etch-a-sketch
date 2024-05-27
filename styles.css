@@ -1,0 +1,23 @@
+/* CSS styling
+May 26, 2024 */
+
+body {
+    width: 100%;
+}
+
+.game-container {
+    display:flex;
+    background-color: #F2C1D1;
+    border-style: solid;
+}
+
+.game-block {
+    flex:1;
+    padding: 10px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.flex-wide {
+    flex-grow: 1;
+}
